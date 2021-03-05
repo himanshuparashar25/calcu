@@ -1,1 +1,84 @@
-/* You can add global styles to this file, and also import other style files */
+.base {
+    background: darkslategray;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 5px #ccc;
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.maindisplay {
+    background-image: linear-gradient(45deg, #e35785, #f4a23e);
+    height: 20vh;
+    padding: 2% 5% !important;
+    font-size: 2rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ 
+.subdisplay {
+    /* border-bottom: 1px solid black; */
+    height: 25%;
+    font-size: 1.5rem;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+table{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.keypad {
+    height: calc(200% / 3);
+}
+
+.keys {
+    margin: 0;
+    height: 20%;
+    background: white;
+    color: grey;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 60px;
+}
+
+.keys:hover {
+    opacity: 1;
+}
+
+.ackey {
+    color: red;
+    background: #f9f9f9;
+}
+
+.equalkey {
+    color: #000;
+    background-image: linear-gradient(45deg, #e35785, #f4a23e);
+    border-bottom-right-radius: 10px;
+}
+
+.numkey {
+    color: #000;
+    background-color: #fff; 
+    
+}
+.zero{
+    border-bottom-left-radius: 10px;
+}
+
+.opkey {
+    color: #000;
+    background-color: #eaeaea; 
+}
+
+/*  */
+
